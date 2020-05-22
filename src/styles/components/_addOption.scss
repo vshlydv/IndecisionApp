@@ -1,0 +1,15 @@
+.addOption {
+    display: flex;
+    flex-direction: row;
+    padding: $m-size;
+}
+
+.addOption__text {
+    background: $dark-blue;
+    border: none;
+    color: $off-white;
+    border-bottom: .3rem solid darken($dark-blue, 10%);
+    flex-grow: 1;
+    margin-right: $m-size;
+    padding: $s-size;
+}
